@@ -1,0 +1,15 @@
+﻿<Window x:Class="_19._10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBox x:Name="Name" />
+            <TextBox x:Name="Surname" />
+            <TextBox x:Name="Phone" />
+            <Button x:Name="OK">OK</Button>
+            <Button x:Name="Cancel">Cancel</Button>
+            <Button x:Name="ChangeLanguage">Change Language</Button>
+        </StackPanel>
+    </Grid>
+</Window>
